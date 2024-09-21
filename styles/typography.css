@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "OverusedGroteskRoman";
+    src: url("/font/OverusedGrotesk-Roman.woff");
+}
+
+@font-face {
+    font-family: "OverusedGroteskMedium";
+    src: url("/font/OverusedGrotesk-Medium.woff");
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a, button {
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "OverusedGroteskRoman";
+}
+
+p, li, a, button {
+    font-family: "OverusedGroteskMedium";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-small {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 140%;
+}
+
+.text-medium {
+    font-size: 1.8em;
+    line-height: 140%;
+}
+
+.text-large {
+    font-size: 7.75em;
+    line-height: 100%;
+}
