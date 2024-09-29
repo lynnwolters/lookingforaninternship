@@ -6,3 +6,11 @@
 
     -webkit-font-smoothing: antialiased;
 }
+
+body {
+    background-color: var(--background-color);
+}
+
+a, button {
+    cursor: pointer;
+}

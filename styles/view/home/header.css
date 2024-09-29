@@ -1,0 +1,15 @@
+header h1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    margin-top: 1em;
+}
+
+header div {
+    grid-column-start: 5;
+    grid-column-end: 13;
+}
+
+header div img {
+    width: 100%;
+}

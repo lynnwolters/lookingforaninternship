@@ -1,7 +1,20 @@
-body {
-    background-color: var(--background-color);
-}
+/* ******** */
+/* GENERAL */
+/* ****** */
 
-a, button {
-    cursor: pointer;
-}
+@import "./styles/general/reset.css";
+@import "./styles/general/root.css";
+@import "./styles/general/typography.css";
+@import "./styles/general/grid.css";
+@import "./styles/general/spacing.css";
+
+/* ***** */
+/* VIEW */
+/* *** */
+
+/* VIEW > HOME */
+
+@import "./styles/view/home/nav.css";
+@import "./styles/view/home/header.css";
+@import "./styles/view/home/main.css";
+@import "./styles/view/home/footer.css";
