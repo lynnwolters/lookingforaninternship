@@ -29,18 +29,9 @@
     src: url("/font/OverusedGrotesk-Medium.woff");
 }
 
-@font-face {
-    font-family: "MoglanDemo";
-    src: url("/font/MoglanDemo.woff");
-}
-
-@font-face {
-    font-family: "ClashDisplay-Regular";
-    src: url("/font/ClashDisplay-Regular.woff");
-}
-
 h1, h2, h3, h4, h5, h6, p, li, a, button {
     color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,6 +51,7 @@ a {
 }
 
 .text-small {
+    text-transform: uppercase;
     line-height: 140%;
 }
 
