@@ -21,12 +21,12 @@
 
 @font-face {
     font-family: "OverusedGrotesk-Roman";
-    src: url("font/OverusedGrotesk-Roman.woff");
+    src: url("font/OverusedGrotesk-Roman.woff2") format("woff2"), url("font/OverusedGrotesk-Roman.woff") format("woff");
 }
 
 @font-face {
     font-family: "OverusedGrotesk-Medium";
-    src: url("font/OverusedGrotesk-Medium.woff");
+    src: url("font/OverusedGrotesk-Medium.woff2") format("woff2"), url("/font/OverusedGrotesk-Medium.woff") format("woff");
 }
 
 h1, h2, h3, h4, h5, h6, p, li, a, button {
