@@ -1,8 +1,19 @@
 .spacing-around {
-    margin: 2em;
+    padding: 2em;
 }
 
 .spacing-vertical {
-    margin-top: 6em;
-    margin-bottom: 6em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+@media (max-width: 700px) {    
+    .spacing-around {
+        padding: 1em;
+    }
+
+    .spacing-vertical {
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
 }

@@ -13,3 +13,17 @@ header div {
 header div img {
     width: 100%;
 }
+
+@media (max-width: 500px) {
+    header h1 {
+        grid-column-start: 1;
+        grid-column-end: 13;
+    
+        margin-top: 1em;
+    }
+    
+    header div {
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+}
